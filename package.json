@@ -1,7 +1,7 @@
 {
-  "name": "okapi-sdk",
+  "name": "@okapihq/sdk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Okapi JS SDK.",
   "main": "index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
