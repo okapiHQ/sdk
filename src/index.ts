@@ -26,9 +26,6 @@ class OkapiClientSdk {
 
   /** Save the API key. */
   public start(apiKey: string) {
-    if (this.isStarted) {
-      throw new OkapiError('Client sdk has already started. This method should be called only one time.');
-    }
     this._isStarted = true;
     this._apiKey = apiKey;
   }
