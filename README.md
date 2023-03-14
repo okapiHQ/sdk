@@ -45,12 +45,10 @@ After your dependency is added, you simply need to initialize okapi via the `sta
 > **⚠️ Warning**: Make sure to keep your api key private
 
 ```javascript
-okApiClient.start(
-  'YOUR_API_KEY'
-)
+okApiClient.start('YOUR_API_KEY');
 ```
 
-After that you can use any Okapi functionalities as described in our [extensive docs](https://okapi-1.gitbook.io/product-docs)
+After that you can use any Okapi functionalities as described in our [extensive docs](https://okapi-1.gitbook.io/product-docs).
 
 ## Star us ⭐️ 
 
@@ -58,7 +56,7 @@ If this JS SDK helps you build your dapps faster - please star this project, eve
 
 ## Need help?
 
-If you need help with setting up the boilerplate or have other questions - don't hesitate to write in our community forum and we will check asap. [Discord link](https://discord.gg).
+If you need help with setting up Okapi or have any other questions - don't hesitate to write us on [Discord](https://discord.gg) and we will check asap.
 
 
 ## Community
