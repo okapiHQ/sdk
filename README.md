@@ -1,5 +1,6 @@
 # Okapi SDK 
-Javascript & Typescript
+
+Okapi let's you build easily web3 loyalty programs and many more! Visit our website for more information: [getokapi.xyz](https://getokapi.vercel.app/)
 
 **Features**:
 
