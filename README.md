@@ -1,6 +1,6 @@
 # Okapi SDK 
 
-Okapi let's you build easily web3 loyalty programs and many more!For more information, visit [getokapi.xyz](https://getokapi.vercel.app/).
+Okapi let's you build easily web3 loyalty programs and many more! For more information, visit [getokapi.xyz](https://getokapi.vercel.app/)
 
 **Features**:
 
@@ -8,8 +8,9 @@ Okapi let's you build easily web3 loyalty programs and many more!For more inform
 - Evaluate an objective with user and id
 - Evaluate a reward with user and id
 - Get a token gate status with user and id 
+- ... and much more. 
 
-... and much more. Check the [official Okapi docs](https://okapi-1.gitbook.io/product-docs/) for more details.
+Check the [official Okapi docs](https://okapi-1.gitbook.io/product-docs/) for more details.
 
 ## Quick start
 
