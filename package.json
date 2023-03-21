@@ -1,13 +1,13 @@
 {
   "name": "@okapihq/sdk",
-  "version": "1.0.3",
-  "description": "Okapi JS SDK.",
+  "version": "1.0.4",
+  "description": "Okapi JS SDK. Visit https://docs.getokapi.xyz/ for more info.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -19,7 +19,11 @@
     "type": "git",
     "url": "git+https://github.com/okapiHQ/sdk.git"
   },
-  "keywords": ["okapiHQ", "Okapi", "web3"],
+  "keywords": [
+    "okapiHQ",
+    "Okapi",
+    "web3"
+  ],
   "author": "Julien Rioux",
   "license": "ISC",
   "bugs": {
@@ -38,5 +42,7 @@
   "dependencies": {
     "axios": "^1.3.4"
   },
-  "files": [ "lib/**/*" ]
+  "files": [
+    "lib/**/*"
+  ]
 }

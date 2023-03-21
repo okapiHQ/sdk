@@ -41,22 +41,22 @@ class OkapiClientSdk {
   }
 
   /** Evaluate an objective with user and id */
-  public async objective({ id, user }: { id: string; user: string }) {
+  public async objective({ id, user, total }: { id: string; user: string; total?: number }) {
     this._checkIfStarted();
     const { data } = await axios.post(
       `${API_ENDPOINT}/objective`,
-      { id, user },
+      { id, user, ...(total && { total }) },
       { headers: { 'x-okapi-api-key': this._apiKey } },
     );
     return data;
   }
 
   /** Evaluate a reward with user and id */
-  public async reward({ id, user }: { id: string; user: string }) {
+  public async reward({ id, user, total }: { id: string; user: string; total?: number }) {
     this._checkIfStarted();
     const { data } = await axios.post(
       `${API_ENDPOINT}/reward`,
-      { id, user },
+      { id, user, ...(total && { total }) },
       { headers: { 'x-okapi-api-key': this._apiKey } },
     );
     return data;
